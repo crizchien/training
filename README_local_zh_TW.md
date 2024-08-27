@@ -124,7 +124,7 @@ jf rt bp maven-demo 1.1 # 此處需要和上面構建時的build對應
 
 ## 實驗 4 - Docker build intergration
 ![img.png](images/img-19.png)
-1. 建立您的 Maven 倉庫
+1. 建立您的 Docker 倉庫
 ![](images/img_c_3.png)
    - [Create remote repository](https://jfrog.com/help/r/jfrog-artifactory-documentation/configure-a-remote-repository)
    - [Create local repository](https://jfrog.com/help/r/jfrog-artifactory-documentation/configure-a-local-repository)
