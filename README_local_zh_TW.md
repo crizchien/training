@@ -124,11 +124,15 @@ jf rt bp maven-demo 1.1 # 此處需要和上面構建時的build對應
 
 ## 實驗 4 - Docker build intergration
 ![img.png](images/img-19.png)
-1. 在 **Get Started** 欄目點選`Redo`選擇 Docker Package 型別進行倉庫的建立
-2. 建立完成後，點選`Continue`，之後選擇`Docker Client`方式進行整合。
-3. 跟隨指引程式完成第二步 Docker Package 的拉取和推送。
-![](images/image-15.png)
-> 注意，需要跟隨步驟完成後，頁面才可以點選`Next`。
+1. 建立您的 Maven 倉庫
+![](images/img_c_3.png)
+   - [Create remote repository](https://jfrog.com/help/r/jfrog-artifactory-documentation/configure-a-remote-repository)
+   - [Create local repository](https://jfrog.com/help/r/jfrog-artifactory-documentation/configure-a-local-repository)
+   - [Create virtual repository](https://jfrog.com/help/r/jfrog-artifactory-documentation/configure-a-virtual-repository)
+2. 之後您可以在 **Artifacs** 欄目瀏覽所上傳的製品。
+3. 透過 set me up 功能查看如何使用倉庫
+![](images/img_c_2.png)
+   - [Set Me Up](https://jfrog.com/help/r/jfrog-artifactory-documentation/configure-a-package-manager-client)
 
 ## 實驗 5 - 使用 Xray 阻斷 Docker 映象構建
 1. 將示例專案的 POM 檔案的 log4j-core版本降級為2.14.0，並重新打包構建
