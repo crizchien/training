@@ -24,10 +24,13 @@
 
 1. 建立您的 Maven 倉庫
 ![](images/img_c_1.png)
-   - ([Create remote repository](https://jfrog.com/help/r/jfrog-artifactory-documentation/configure-a-remote-repository))
-   - ([Create local repository](https://jfrog.com/help/r/jfrog-artifactory-documentation/configure-a-local-repository))
-   - ([Create virtual repository](https://jfrog.com/help/r/jfrog-artifactory-documentation/configure-a-virtual-repository))
+   - [Create remote repository](https://jfrog.com/help/r/jfrog-artifactory-documentation/configure-a-remote-repository)
+   - [Create local repository](https://jfrog.com/help/r/jfrog-artifactory-documentation/configure-a-local-repository)
+   - [Create virtual repository](https://jfrog.com/help/r/jfrog-artifactory-documentation/configure-a-virtual-repository)
 2. 之後您可以在 **Artifacs** 欄目瀏覽所上傳的製品。
+3. 透過 set me up 功能查看如何使用倉庫
+![](images/img_c_2.png)
+   - [Set Me Up](https://jfrog.com/help/r/jfrog-artifactory-documentation/configure-a-package-manager-client)
 ## 實驗 2 - JFrog CLI intergration
 > 執行第三步Connect your CI tool，選擇 Other CI，之後您將獲取到JFrog CLI 的文件連結。您也可以嘗試其他 CI tools 的整合。
 1. 直接下載您作業系統對應的jf二進位制程式，[下載地址](https://releases.jfrog.io/artifactory/jfrog-cli/v2-jf/2.48.0/)。
